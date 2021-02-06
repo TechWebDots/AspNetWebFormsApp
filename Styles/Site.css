@@ -1,0 +1,57 @@
+﻿/*LogIn Page CSS*/
+.welcomeProjectText{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 11%;
+    margin-bottom: 0%;
+    height: 70%;
+    width: 58%;
+}
+.welcomeProjectTextTD{
+    text-align: center;
+    width: 30%;
+    vertical-align: middle;
+    font-size: 33px;
+    background-color: orange;
+    color: white;
+}
+.fullWidth, .txtarea, .frmMaster, .tableWidth > tr{
+    width: 100% !important;
+}
+.panelTD{
+    padding: 5px !important;
+    height:30px;
+    width:30%;
+}
+.panelControl
+{
+    font-size:12px;
+    padding: 3px;
+    height:24px;
+    width:95% !important;
+}
+.panelTDControl{
+    padding: 4px !important;
+    font-size:12px;
+    height:30px;
+    width: 19%;
+}
+.tblLogIn{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    width: 90%;
+}
+.tblLogIn> tbody > tr > td{
+    border: 0px;
+}
+.controlBackground,
+input[type="submit"],
+input[type="button"],
+button[type="button"] {
+color: white !important;
+background-color: orangered !important;
+border-color:orangered !important;
+font-family:Arial;
+font-size:12px;
+}
