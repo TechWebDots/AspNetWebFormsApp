@@ -1,7 +1,7 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="LogIn.aspx.cs" Inherits="DotNetConcept.LogIn" %>
+﻿<%@ Page Title="LogIn Design" Language="C#" AutoEventWireup="true" CodeBehind="LogIn.aspx.cs" Inherits="DotNetConcept.LogIn" %>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
-    <title></title>
+    <title>LogIn Design by TechWebDots</title>
     <script src="../Scripts/jquery-3.4.1.min.js"></script>
     <link href="Styles/bootstrap-3.3.7.css" rel="stylesheet" />
     <link href="Styles/Site.css" rel="stylesheet" />
@@ -11,7 +11,7 @@
         <table class="form-control welcomeProjectText" style="padding: 6px 6px;height: auto;">
             <tbody>
                 <tr>
-                    <td class="panelTD welcomeProjectTextTD">TechWebDots<br />LogIn Design<br/>(Bootstrap and CSS)</td>
+                    <td class="panelTD welcomeProjectTextTD">Hello TechWebDots!<br />LogIn Design<br/>(Bootstrap and CSS)</td>
                     <td class="panelTDControl" style="width: 30%;">
                         <asp:Label ID="lblVersionInfo" style="float: right;font-size:9px;" runat="server" Text=""></asp:Label>
                         <table id="tblLogIn" class="table tblLogIn">
